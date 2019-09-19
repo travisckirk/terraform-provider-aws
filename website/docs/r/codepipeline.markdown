@@ -104,8 +104,8 @@ resource "aws_codepipeline" "codepipeline" {
 
       configuration = {
         Owner  = "my-organization"
-        Repo   = "test"
-        Branch = "master"
+        RepositoryName   = "test"
+        BranchName = "master"
       }
     }
   }
